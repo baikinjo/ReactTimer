@@ -1,7 +1,7 @@
-var React = require('react');
-var {Link, IndexLink} = require('react-router');
+import React from 'react';
+import {Link, IndexLink} from 'react-router';
 
-var Nav = () => {
+export var Nav = () => {
   return(
     <div className="top-bar">
       <div className="top-bar-left">
